@@ -1,0 +1,38 @@
+table {
+  width: 100%;
+  padding: 20px;
+  position: relative;
+}
+
+table thead {
+  background-color: #ecebeb;
+  height: 50px;
+  text-align: left;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  -webkit-box-shadow: 0px 5px 9px 2px #55555591;
+  box-shadow: 0px 5px 9px 2px #55555563;
+}
+
+table thead th {
+  padding: 10px;
+  color: #282c34;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+table tbody tr:hover {
+  background-color: #6969693f;
+  cursor: pointer;
+}
+
+table tbody tr td {
+  padding: 10px;
+  color: #282c34;
+  font-weight: 400;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+}
+/*# sourceMappingURL=Table.css.map */
